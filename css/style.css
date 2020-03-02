@@ -48,6 +48,8 @@ h3 {
 #burger-menu {
   width: 100px;
   background-color: #1abc9c;
+  margin: 0 20px;
+  margin-top: 15px;
 }
 
 #burger-menu:hover{
@@ -190,4 +192,22 @@ footer ul li {
 .link-footer:hover {
   color: #117964;
   text-decoration: underline;
+}
+
+/* REGOLE VERSIONE XS */
+@media screen and (max-width: 768px) {
+  /* REGOLE HEADER XS */
+  .barra-navigazione {
+    height: 70px;
+  }
+
+  .titolo {
+    padding: 0 30px;
+  }
+
+  /* REGOLE SEZIONE PORTFOLIO XS */
+  #portfolio img {
+    max-width: 400px;
+    height: auto;
+  }
 }
