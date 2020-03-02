@@ -1,36 +1,6 @@
 /* GOOGLE FONTS */
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
 
-/* REGOLE DI DEBUG */
-.jumbotron {
-  /* background-color: green; */
-}
-
-section {
-  /* background-color: red; */
-  margin: 10px 0;
-  min-height: 100px;
-}
-
-footer {
-  background-color: grey;
-  min-height: 100px;
-  margin: 10px 0;
-}
-
-.row {
-  min-height: 50px;
-  /* background-color: orange; */
-  /* border: 1px solid black; */
-
-}
-
-[class*="col-"] {
-  /* background-color: pink; */
-  /* border: 1px solid black; */
-  min-height: 50px;
-}
-
 /* REGOLE GENERALI */
 * {
   margin: 0;
@@ -159,4 +129,16 @@ h3 {
 
 .input-contatti:focus {
   box-shadow: none;
+}
+
+/* REGOLE FOOTER */
+#footer-top {
+  background-color: #2c3e50;
+  padding: 50px 0;
+}
+
+#footer-bottom {
+  background-color: #1a252f;
+  padding: 25px;
+  font-size: 12px;
 }
