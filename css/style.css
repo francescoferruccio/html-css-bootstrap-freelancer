@@ -101,6 +101,7 @@ h3 {
 
 .stella {
   font-size: 36px;
+  padding: 20px 0;
 }
 
 /* REGOLE SEZIONE PORTFOLIO */
@@ -115,4 +116,23 @@ h3 {
   height: auto;
   border-radius: 10px;
   margin: 15px 0;
+}
+
+/* REGOLE SEZIONE ABOUT */
+#about {
+  background-color: #1abc9c;
+  text-align: center;
+  padding: 50px 0;
+}
+
+#about p {
+  font-size: 18px;
+}
+
+.btn-download {
+  margin: 20px 0;
+  background-color: #1abc9c;
+  border: 2px solid #fff;
+  color: #fff;
+  padding: 20px;
 }
