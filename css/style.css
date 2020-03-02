@@ -134,6 +134,33 @@ h3 {
   margin: 15px 0;
 }
 
+.overlay {
+  position: absolute;
+  top: 15px;
+  bottom: 0;
+  left: 15px;
+  right: 0;
+  border-radius: 10px;
+  height: calc(100% - 30px);
+  width: calc(100% - 30px);
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #1abc9c;
+
+}
+
+#portfolio .box-img:hover .overlay {
+  opacity: 0.9;
+}
+
+.fa-plus {
+  position: relative;
+  transform: translate(0, -50%);
+  top: 50%;
+  font-size: 60px;
+  color: #fff;
+}
+
 /* REGOLE SEZIONE ABOUT */
 #about {
   background-color: #1abc9c;
@@ -175,6 +202,11 @@ h3 {
 
 .input-contatti:focus {
   box-shadow: none;
+}
+
+#contatti .btn-green:hover {
+  background-color: #117964;
+  border-color: #117964;
 }
 
 /* REGOLE FOOTER */
