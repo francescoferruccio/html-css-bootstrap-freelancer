@@ -1,10 +1,9 @@
-/* REGOLE DI DEBUG */
-.navbar {
-  background-color: blue;
-}
+/* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
 
+/* REGOLE DI DEBUG */
 .jumbotron {
-  background-color: green;
+  /* background-color: green; */
 }
 
 section {
@@ -21,20 +20,80 @@ footer {
 
 .row {
   min-height: 50px;
-  background-color: orange;
+  /* background-color: orange; */
   border: 1px solid black;
 
 }
 
 [class*="col-"] {
-  background-color: pink;
+  /* background-color: pink; */
   border: 1px solid black;
   min-height: 50px;
 }
 
 /* REGOLE GENERALI */
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Montserrat';
+}
+
+body {
+  padding-top: 120px;
+  color: #fff;
+}
+
+ul li {
+  display: inline-block;
+}
+
+a{
+  color: #fff;
+}
+
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+/* REGOLE HEADER */
+.barra-navigazione {
+  background-color: #2c3e50;
+  padding: 20px 0;
+  height: 120px;
+}
+
+.nav-destra {
+  text-align: right;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.nav-destra li {
+  padding: 20px;
+}
+
+.testa {
+  background-color: #1abc9c;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.testa img {
+  width: 250px;
+  height: auto;
+}
+
+.testa h1 {
+  font-weight: bold;
+}
+
+.testa p {
+  font-size: 36px;
 }
