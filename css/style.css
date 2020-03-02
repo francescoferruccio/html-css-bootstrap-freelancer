@@ -129,10 +129,34 @@ h3 {
   font-size: 18px;
 }
 
-.btn-download {
+.btn-green {
   margin: 20px 0;
   background-color: #1abc9c;
   border: 2px solid #fff;
   color: #fff;
   padding: 20px;
+}
+
+/* REGOLE SEZIONE CONTATTI */
+#contatti {
+  color: #2c3e50;
+  padding: 50px 0;
+}
+
+.form-contatti {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.input-contatti {
+  font-size: 22px;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  margin: 50px 0;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.input-contatti:focus {
+  box-shadow: none;
 }
