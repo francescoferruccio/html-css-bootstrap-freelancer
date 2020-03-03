@@ -321,4 +321,36 @@ footer ul li {
     margin: 0 auto;
     left: 0;
   }
+
+  .mia-modale{
+    width: 500px;
+    margin: 0 auto;
+  }
+
+  .img-modale {
+    width: 400px;
+  }
+
+  .testo-modale {
+    width: 400px;
+    margin: auto;
+  }
+}
+
+/* REGOLE VERSIONE SM */
+@media screen and (min-width:769px) and (max-width:992px) {
+  .mia-modale{
+    width: 700px;
+  }
+
+  .img-modale {
+    width: 600px;
+  }
+}
+
+/* REGOLE VERSIONE MD */
+@media screen and (min-width:993px) and (max-width:1200px) {
+  .mia-modale{
+    width: 900px;
+  }
 }
