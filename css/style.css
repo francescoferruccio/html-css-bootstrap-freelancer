@@ -151,7 +151,6 @@ h3 {
   opacity: 0;
   transition: .5s ease;
   background-color: #1abc9c;
-
 }
 
 #portfolio .box-img:hover .overlay {
@@ -303,5 +302,11 @@ footer ul li {
   #portfolio img {
     max-width: 400px;
     height: auto;
+  }
+
+  .overlay {
+    max-width: 400px;
+    margin: 0 auto;
+    left: 0;
   }
 }
